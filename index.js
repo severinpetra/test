@@ -9,8 +9,8 @@ var obj = {
     '121': true
 };
 
-var arr = _.map( obj, function( obj ) {
-    return obj;
+var arr = _.map( obj, function( obj, key ) {
+    return key;
 });
 
 console.log( arr );
